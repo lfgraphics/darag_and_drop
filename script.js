@@ -25,6 +25,7 @@ function uploadImage() {
 
 dropArea.addEventListener('dragover', function(e){
     e.preventDefault();
+    this.style.background = 'red'
 });
 dropArea.addEventListener('drop', function(e){
     e.preventDefault();
